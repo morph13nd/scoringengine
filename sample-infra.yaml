@@ -1,0 +1,24 @@
+team1:
+  gnu:
+    address: "gnu.org"
+    services:
+      http:
+        status_codes: [200, 301]
+  ddg:
+    address: "duckduckgo.com"
+    services:
+      http:
+        status_codes: [200]
+team2:
+  csun_ssh:
+    address: "ssh.csun.edu"
+    services:
+      http:
+        status_codes: [200]
+  overthewire_bandit:
+    address: "bandit.labs.overthewire.org"
+    services:
+      ssh:
+        port: 2220
+        username: "bandit0"
+        password: "bandit0"
